@@ -6,11 +6,11 @@ We illustrate the concept of Q-Learning via a graph network search. From a start
 
 Q -> Estimated Reward Table
 M -> True Reward Table
-$\Gamma$ -> Learning Rate
+$\gamma$ -> Learning Rate
 
 We utilized a random initalization process to estimate Q. 
 1) We randomly begin at a node and check the best possible route to transverse via Q.
-2) We update Q = M + $\Gamma$*(current reward).
+2) We update Q = M + $\gamma$*(current reward).
 3) Repeat for another random node.
 
 Another possible method is to:
