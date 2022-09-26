@@ -26,4 +26,5 @@ Another possible method is to:
 Feel free to explore and edit the code accordingly.
 
 This project is extended from: 
+
 https://www.geeksforgeeks.org/ml-reinforcement-learning-algorithm-python-implementation-using-q-learning/
