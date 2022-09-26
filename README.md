@@ -1,6 +1,4 @@
-# Reinforcement-Learning---Graph-Q-Learning
-
-# Graph Q-Learning
+# Reinforcement-Learning---Graph-Traversal
 
 We illustrate the concept of Q-Learning via a graph network search. From a starting node, we wish to transverse the agent to a specific node (goal).
 
