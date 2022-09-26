@@ -10,9 +10,10 @@ From a starting node, we traverse to a specific node (goal).
 - Action: Movement (traversal)
 - Reward: 100 at goal, 0 otherwise
 
-Q -> Estimated Reward Table
-M -> True Reward Table
-$\gamma$ -> Learning Rate
+Variables:
+- Q : Estimated Policy Table
+- M : True Reward Table
+- $\gamma$ : Learning Rate
 
 We utilized a random initalization process to estimate Q. 
 1) We randomly begin at a node and check the best possible route to transverse via Q.
