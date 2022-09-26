@@ -1,6 +1,14 @@
 # Reinforcement-Learning---Graph-Traversal
 
-We illustrate the concept of Q-Learning via a graph network search. From a starting node, we wish to transverse the agent to a specific node (goal).
+We illustrate the concept of Q-learning via a graph traversal search. 
+
+From a starting node, we traverse to a specific node (goal).
+
+- Agent: Robot
+- Environment: Graph
+- State: Position of the Robot in the Graph
+- Action: Movement (traversal)
+- Reward: 100 at goal, 0 otherwise
 
 Q -> Estimated Reward Table
 M -> True Reward Table
